@@ -37,7 +37,7 @@ body {
 }
 
 footer{
-    font-family: 'Open Sans', sans-serif;
+    color: #ccc;
     text-align: center;
     width: 100%;
     height: 17rem;
@@ -45,7 +45,13 @@ footer{
     background-color: #504a4a;
 }
 
+footer .footer-brand{
+    font-family: 'Open Sans', sans-serif;
+}
+
 footer .made-w h4{
+    color: #ccc;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
 }
 
@@ -55,6 +61,7 @@ footer .logos img{
 }
 
 .links a{
+    font-family: 'Open Sans', sans-serif;
     text-decoration: none;
     font-size: small;
     margin-right: 1.5rem;
@@ -65,4 +72,10 @@ footer .logos img{
 .links a:hover{
     text-decoration: underline ;
     color: #fcf6f6;
+}
+
+.copyright{
+    color: #ccc;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
 }
