@@ -3,16 +3,16 @@
 
 
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: #f7f3f1;
   }
 
 .logo img{
-    max-width: 3rem;
+    max-width: 4rem;
 }
 
 .center-wrapper {
     font-family: 'Poppins', sans-serif;
-    color: #1d1402;
+    color: #625969;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -21,61 +21,56 @@ body {
   
 .container {
     width: 50%;
-    border: 1px solid #1d1402;
-    background-color: rgb(255, 255, 255);
+    border: 1px solid #625969;
     padding: 2rem;
     border-radius: 1rem;
 } 
 
 .container a{
-    color: #c5b596;
+    color: #ae9ec0;
 }
 
 .container a:hover{
     text-decoration: none;
-    color: #ddd3be;
 }
 
 footer{
-    color: #ccc;
+  font-family: 'Poppins', sans-serif;
+  color: #625969;
     text-align: center;
     width: 100%;
     height: 17rem;
-    color: #fff;
-    background-color: #504a4a;
+    background-color: #d0c8db;
 }
 
 footer .footer-brand{
-    font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 footer .made-w h4{
-    color: #ccc;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
 }
 
 footer .logos img{
-    max-width: 1.5rem;
-    margin-right: 1.5rem;
+  max-width: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 .links a{
-    font-family: 'Open Sans', sans-serif;
-    text-decoration: none;
-    font-size: small;
-    margin-right: 1.5rem;
-    margin-left: 1.5rem;
-    color: #ccc;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  font-size: small;
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+  color: #625969;
 }
 
 .links a:hover{
     text-decoration: underline ;
-    color: #fcf6f6;
 }
 
 .copyright{
-    color: #ccc;
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
 }
