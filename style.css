@@ -76,3 +76,7 @@ footer .logos img{
     font-size: 14px;
     font-family: 'Poppins', sans-serif;
 }
+
+footer .footer-brand h2{
+    margin-top: 0.8rem;
+}
