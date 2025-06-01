@@ -3,6 +3,8 @@
 
 
 body {
+    magin: 0;
+    padding: 0;
     background-color: #f7f3f1;
   }
 
