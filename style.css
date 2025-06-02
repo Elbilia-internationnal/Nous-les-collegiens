@@ -100,3 +100,33 @@ footer .sign img{
   padding: 0;
   max-width: 12%;
 }
+
+/* Styles pour petits écrans (max 600px) */
+@media screen and (max-width: 600px) {
+  .container {
+    width: 90%;  /* Prend presque toute la largeur */
+    padding: 1rem; /* Moins de padding */
+    margin-top: 10rem;
+    margin-bottom: 12rem;
+  }
+
+  .logo img {
+    max-width: 15%; /* Logo plus grand que sur desktop */
+    padding: 1rem;
+    animation: float 3s ease-in-out infinite;
+  }
+
+  footer .sign img {
+    max-width: 30%; /* Signature plus visible sur petits écrans */
+  }
+
+  footer .links a {
+    font-size: smaller; /* Texte plus petit */
+    margin: 0 0.5rem;
+  }
+
+  .center-wrapper {
+    height: auto; /* Pas forcément 100vh */
+    padding: 2rem 0;
+  }
+}
